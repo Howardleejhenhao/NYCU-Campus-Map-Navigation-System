@@ -17,7 +17,7 @@ class Location:
             adjusted_x = self.x + self.offset_x
             adjusted_y = self.y + self.offset_y
 
-            pygame.draw.circle(screen, (255, 0, 0), (adjusted_x, adjusted_y), 5)
+            # pygame.draw.circle(screen, (255, 0, 0), (adjusted_x, adjusted_y), 5)
             # text = self.font.render(self.building_code, True, (0, 0, 0))
             # screen.blit(text, (adjusted_x + 10, adjusted_y))
 
