@@ -12,12 +12,3 @@ node_index_to_building_code = [
 ]
 
 building_code_to_node_index = {value: idx for idx, value in enumerate(node_index_to_building_code) if value is not None}
-
-# print("數字對應字串 (1-based):")
-# for i, value in enumerate(num_to_str):
-#     if value is not None:
-#         print(f"{i} -> {value}")
-
-# print("\n字串對應數字:")
-# for key, value in str_to_num.items():
-#     print(f"{key} -> {value}")
